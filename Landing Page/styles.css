@@ -4,7 +4,7 @@ body{
 }
 
 #header{
-    position:  fixed;
+    position: fixed;
     display: flex;
     flex-direction: row;
     justify-content: space-around; 
@@ -65,12 +65,15 @@ li{
     font-size: 1em;
 } 
 
-#email{
-
-}
-
 .features{
-
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+width: 80%;
+max-width: 700px;
+margin: 0;
+padding: 0;
 }
 
 grid{
@@ -80,7 +83,9 @@ grid{
 
 icon{
     width: 15vw;
-    display: ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 
@@ -137,10 +142,13 @@ ol > li{
     width: 30%;
     height: 30px;
     font-size: 1em;
+    min-width: 100px;
 }
 
 @media(max-width: 700px){
     #pricing{
-        flex-direction: ;
+        flex-direction: column;
+        align-items: center;
     }
 }
+
